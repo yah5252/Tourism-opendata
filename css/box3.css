@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.wrap{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{
+    height: 500px;
+    border: 1px solid blue;
+}
+
+.header{
+    background-image: url(../img/Hero.png);
+    height: 400px;
+    width: 1000px;
+    margin-bottom: 100px;
+    
+}
+
+
+.header h1{
+    font-family:PingFangTC-Regular;
+    font-size: 40px;
+    color: #FFFFFF;
+    letter-spacing: 3.89px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.text{
+    margin-top: 100px;
+    margin-left: 310px;
+    width: 370px;
+    height: 30px;
+    background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+.box{
+    background:#FFFFFF;
+    position: absolute;
+    top: 352px;
+    margin-left: 90px;
+    height: 120px;
+    width: 800px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+}
+
+.box h6{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    border: 1px dashed aquamarine;
+}
+
+.line_img{
+   position: absolute;
+   top:490px;
+   left: 810px;
+}
+
+.area li{
+    border-radius: 10px;
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    height: 42px;
+    width: 130px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.area li:hover{
+   color: black;
+}
+
+.area_1{
+    margin-bottom: 35px;
+    background-color: #ffe66f;
+}
+
+.area_2{
+    background-color:#ff7575;
+}
+
+.area_3{
+    background-color: #b9b9ff;
+}
+
+.area_4{
+    background-color: #d0d0d0;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.areaName {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    padding-left: 435px;
+}
+
+.content  li {
+    height: 273px;
+    width: 464px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 20px;
+}
+
+.str{
+    height: 155px;
+   width: 464px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    text-align: center;
+    height: 90px;
+    background: #559AC8;
+    padding-top: 20px;
+}
